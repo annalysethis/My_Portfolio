@@ -10,7 +10,7 @@ function Projects() {
       <div className="projectsContainer">
         <a href="https://github.com/annalysethis/My_Portfolio">
           <img
-            id="Port-home"
+            id="portfolio-pic"
             alt="My Portfolios homepage"
             src={Portfolio_website}
           ></img>

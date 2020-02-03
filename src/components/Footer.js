@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <p className="footer-text">
-        Hi my name is Anna. I'm a <b>Front-End Developer</b>.
+        Hi my name is Anna. I'm a <b>Front-End Developer </b>in Stockholm.
       </p>
     </footer>
   );

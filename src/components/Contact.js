@@ -55,20 +55,31 @@ class Contact extends React.Component {
           <h1>Contact Me:</h1>
           <ul className="contact-list">
             <li>
-              <b>Email:</b>{" "}
+              <b>Email:</b> <br />
               <a href="mailto: <Anna> anna.hurtig&#64;hotmail.com">
                 anna.hurtig (at) hotmail.com
               </a>
             </li>
             <br />
             <li>
-              <b>Github:</b>{" "}
+              <b>Github:</b> <br />
               <a
                 href="https://github.com/annalysethis"
                 target="_blank"
                 subject="subject text"
               >
                 https://github.com/annalysethis
+              </a>
+            </li>
+            <br />
+            <li>
+              <b>Linkedin:</b> <br />
+              <a
+                href="https://www.linkedin.com/in/anna-hurtig-92a6091a2/"
+                target="_blank"
+                subject="subject text"
+              >
+                https://www.linkedin.com/in/anna-hurtig-92a6091a2/
               </a>
             </li>
           </ul>

@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
-import { up, down, between, only } from "styled-breakpoints";
 
 const Weather = props => {
   return (

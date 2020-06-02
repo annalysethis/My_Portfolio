@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 function Footer() {
   return (
@@ -9,8 +9,5 @@ function Footer() {
     </footer>
   );
 }
-
-// Hi my name is Anna. I create <b>beautiful</b> & <b>functional</b>{" "}
-//websites for small businesses.
 
 export default Footer;

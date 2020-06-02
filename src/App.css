@@ -3,7 +3,6 @@
 
 * {
   font-family: "Big Caslon";
-  /* font-family: "Montserrat", sans-serif; */
 }
 
 .App {
@@ -13,7 +12,6 @@
 }
 
 .home {
-  /* background: url("https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"); */
   background-image: url(../src/img/park.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,6 +60,13 @@
   color: rgb(176, 172, 172);
   font-size: 20px;
   list-style: none;
+  padding: 0;
+}
+
+.portfolio li {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
 }
 
 .portfolio p {
@@ -73,19 +78,22 @@
   display: flex;
   width: 70%;
   margin: auto;
+  text-align: center;
 }
 .links {
   color: rgb(176, 172, 172);
-  margin-top: 65px;
-  padding: 25px;
-  border-top: 1px solid #eee;
+  margin: 0;
+  padding: 0px;
   font-size: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+
+  justify-content: center;
 }
 
 .links a {
+  padding: 20px;
+  width: 30%;
   text-decoration: none;
   color: rgb(176, 172, 172);
 }
@@ -131,6 +139,10 @@ li {
 .project-pic {
   width: 400px;
   border: 1px solid #ddd;
+}
+
+.project-pic-mobileView {
+  width: 270px;
 }
 
 .name-logo {
